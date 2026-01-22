@@ -1,4 +1,4 @@
-import { Routes, Route, Link, HashRouter } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import { Github, Linkedin } from "lucide-react"; 
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
@@ -9,7 +9,6 @@ import RandomQuote from "./Components/RandomQuote";
 
 export default function App() {
   return (
-    <HashRouter>
     /* No bg- classes here; handled by body in index.css */
     <div className="min-h-screen w-full p-8 flex flex-col">
       <nav className="flex items-center gap-6 mb-10 border-b pb-4 theme-border">
@@ -56,6 +55,5 @@ export default function App() {
         <RandomQuote />
       </footer>
     </div>
-</HashRouter>
   );
 }
