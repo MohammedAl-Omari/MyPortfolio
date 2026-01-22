@@ -1,20 +1,20 @@
 @import "tailwindcss";
 
 :root {
-  /* Dimmer Light Mode Background */
-  --bg-color: #d1d5db;     /* This is a solid, dim gray (slate-300) */
-  --text-color: #0f172a;   /* Deep dark text */
-  --text-muted: #4b5563;   /* Muted gray text */
-  --border-color: #9ca3af; /* Darker border for light mode visibility */
+
+  --bg-color: #d1d5db;  
+  --text-color: #0f172a;  
+  --text-muted: #4b5563; 
+  --border-color: #9ca3af; 
   color-scheme: light;
 }
 
 .dark {
-  /* Deep Dark Mode Background */
-  --bg-color: #111827;     /* Tailwind's gray-900 */
-  --text-color: #ffffff;   /* Pure white text */
-  --text-muted: #9ca3af;   /* Light gray muted text */
-  --border-color: #374151; /* gray-700 */
+
+  --bg-color: #111827; 
+  --text-color: #ffffff; 
+  --text-muted: #9ca3af;  
+  --border-color: #374151; 
   color-scheme: dark;
 }
 
@@ -30,7 +30,7 @@ body {
   min-height: 100vh;
 }
 
-/* Helper classes to use in your components */
+
 .text-secondary {
   color: var(--text-muted);
 }

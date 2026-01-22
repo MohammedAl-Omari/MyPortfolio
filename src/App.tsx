@@ -9,14 +9,24 @@ import RandomQuote from "./Components/RandomQuote";
 
 export default function App() {
   return (
-    /* No bg- classes here; handled by body in index.css */
     <div className="min-h-screen w-full p-8 flex flex-col">
-      <nav className="flex items-center gap-6 mb-10 border-b pb-4 theme-border">
-        <div className="flex gap-4 md:gap-6">
-          <Link to="/" className="font-semibold hover:text-blue-500 transition-colors px-3 py-1 text-[10px] uppercase tracking-wider font-bold rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 border border-transparent dark:border-gray-700">Home</Link>
-          <Link to="/projects" className="font-semibold hover:text-blue-500 transition-colors px-3 py-1 text-[10px] uppercase tracking-wider font-bold rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 border border-transparent dark:border-gray-700">Projects</Link>
-          <Link to="/about" className="font-semibold hover:text-blue-500 transition-colors px-3 py-1 text-[10px] uppercase tracking-wider font-bold rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 border border-transparent dark:border-gray-700">About</Link>
-          <Link to="/contact" className="font-semibold hover:text-blue-500 transition-colors px-3 py-1 text-[10px] uppercase tracking-wider font-bold rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 border border-transparent dark:border-gray-700">Contact</Link>
+      <nav className="flex items-center gap-4 md:gap-6 mb-10 border-b pb-4 theme-border">
+        
+        {/* --- LOGO SECTION --- */}
+        <Link to="/" className="flex items-center shrink-0">
+          <img 
+            src="./logo.png" 
+            alt="Logo" 
+            className="w-10 h-10 rounded-full border border-gray-200 dark:border-gray-700 hover:scale-110 transition-transform" 
+          />
+        </Link>
+
+        {/* --- NAVIGATION LINKS --- */}
+        <div className="flex gap-2 md:gap-4 overflow-x-auto no-scrollbar">
+          <Link to="/" className="font-semibold hover:text-blue-500 transition-colors px-3 py-1 text-[10px] uppercase tracking-wider rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 border border-transparent dark:border-gray-700">Home</Link>
+          <Link to="/projects" className="font-semibold hover:text-blue-500 transition-colors px-3 py-1 text-[10px] uppercase tracking-wider rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 border border-transparent dark:border-gray-700">Projects</Link>
+          <Link to="/about" className="font-semibold hover:text-blue-500 transition-colors px-3 py-1 text-[10px] uppercase tracking-wider rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 border border-transparent dark:border-gray-700">About</Link>
+          <Link to="/contact" className="font-semibold hover:text-blue-500 transition-colors px-3 py-1 text-[10px] uppercase tracking-wider rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 border border-transparent dark:border-gray-700">Contact</Link>
         </div>
         
         <div className="ml-auto flex items-center gap-4">

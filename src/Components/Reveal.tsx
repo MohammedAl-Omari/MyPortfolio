@@ -21,10 +21,6 @@ export default function Reveal({ children }: { children: React.ReactNode }) {
   return (
     <div
       ref={ref}
-      /* Removed the empty isVisible check.
-         Added transition-all so it doesn't block the theme swap.
-         Ensured color is 'inherit' so it follows your index.css body rules.
-      */
       className={`transition-all duration-700 ease-out transform ${
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
       }`}

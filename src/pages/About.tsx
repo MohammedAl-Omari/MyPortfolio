@@ -9,7 +9,7 @@ const skillCategories = [
   { 
     title: "Web & Frameworks", 
     items: [".NET", "ASP.NET Core", "Vue.js", "Flask", "Next.js", "Tailwind"], 
-    color: "group-hover:text-green-500" // You can keep this blue-500 if you want total consistency
+    color: "group-hover:text-green-500" 
   },
   { 
     title: "Low-Code & AI", 

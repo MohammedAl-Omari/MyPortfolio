@@ -14,7 +14,7 @@ export const projects: Project[] = [
     title: "Full-Stack Image Gallery",
     description: "A secure image management system featuring JWT authentication, Flask backend, and a Vue-powered frontend. Supports image uploads, deletions, and a responsive modal gallery view.",
     tags: ["Python", "Flask", "Vue.js", "JWT", "Axios"],
-    link: "#", // Add live link if you have it hosted
+    link: "#",
     github: "https://github.com/MohammedAl-Omari/Image_Gallery"
   },
   {
@@ -30,7 +30,7 @@ export const projects: Project[] = [
   title: "Campus Eats - Delivery System",
   description: "A professional food delivery backend built with C# and .NET. Implemented Domain-Driven Design (DDD) and MediatR to ensure a scalable and clean system architecture.",
   tags: [".NET", "C#", "DDD", "MediatR"],
-  link: "#", // Add link if available
+  link: "#",
   github: "https://github.com/MohammedAl-Omari"
 },
 {

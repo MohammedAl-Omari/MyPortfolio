@@ -12,7 +12,6 @@ export default function RandomQuote() {
   const [quote, setQuote] = useState("");
 
   useEffect(() => {
-    // Pick a random quote from our local list
     const randomIndex = Math.floor(Math.random() * localQuotes.length);
     setQuote(localQuotes[randomIndex]);
   }, []);
