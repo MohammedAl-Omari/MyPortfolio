@@ -34,6 +34,7 @@ export default function DarkModeToggle() {
       type="button" 
       onClick={toggleTheme}
       className="p-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:ring-2 ring-blue-500 transition-all cursor-pointer active:scale-90"
+      style={{ touchAction: 'manipulation' }}
       aria-label="Toggle Dark Mode"
     >
       <span className="w-5 h-5 flex items-center justify-center">
