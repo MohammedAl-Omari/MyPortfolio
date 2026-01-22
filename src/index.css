@@ -25,7 +25,27 @@ body {
   margin: 0;
   font-family: 'Inter', system-ui, sans-serif;
 }
+body {
+  position: relative;
+  overflow-x: hidden;
+}
 
+body::before {
+  content: "";
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60vw;
+  height: 60vw;
+  background-image: url('/logo.png'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.03; 
+  pointer-events: none; 
+  z-index: -1;
+}
 #root {
   min-height: 100vh;
 }

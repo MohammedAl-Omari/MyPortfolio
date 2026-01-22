@@ -23,7 +23,6 @@ export default function App() {
 
         {/* --- NAVIGATION LINKS --- */}
         <div className="flex gap-2 md:gap-4 overflow-x-auto no-scrollbar">
-          <Link to="/" className="font-semibold hover:text-blue-500 transition-colors px-3 py-1 text-[10px] uppercase tracking-wider rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 border border-transparent dark:border-gray-700">Home</Link>
           <Link to="/projects" className="font-semibold hover:text-blue-500 transition-colors px-3 py-1 text-[10px] uppercase tracking-wider rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 border border-transparent dark:border-gray-700">Projects</Link>
           <Link to="/about" className="font-semibold hover:text-blue-500 transition-colors px-3 py-1 text-[10px] uppercase tracking-wider rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 border border-transparent dark:border-gray-700">About</Link>
           <Link to="/contact" className="font-semibold hover:text-blue-500 transition-colors px-3 py-1 text-[10px] uppercase tracking-wider rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 border border-transparent dark:border-gray-700">Contact</Link>
