@@ -13,7 +13,7 @@ export default function Home() {
 
       <Reveal>
         <p className="text-xl md:text-2xl text-gray-800 dark:text-gray-300 max-w-2xl mb-10 leading-relaxed font-medium">
-           <span className="text-blue-600 dark:text-blue-400">A Software Engineer building robust and scalable digital solutions.</span>
+           <span className="text-blue-600 dark:text-blue-400">Data Technology student at UiS passionate about software development and scalable systems.</span>
         </p>
       </Reveal>
 
@@ -32,19 +32,6 @@ export default function Home() {
           >
             Let's Talk
           </Link>
-        </div>
-      </Reveal>
-
-      <Reveal>
-        <div className="w-full border-t-2 border-gray-200 dark:border-gray-800 pt-10">
-          <p className="text-sm font-bold uppercase tracking-widest text-gray-700 dark:text-gray-500 mb-6">Expertise</p>
-          <div className="flex flex-wrap justify-center gap-8 font-bold text-lg text-gray-900 dark:text-gray-200">
-             <span className="px-3 py-1 text-[10px] uppercase tracking-wider font-bold rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 border border-transparent dark:border-gray-700">Python</span> 
-             <span className="px-3 py-1 text-[10px] uppercase tracking-wider font-bold rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 border border-transparent dark:border-gray-700">.NET</span> 
-             <span className="px-3 py-1 text-[10px] uppercase tracking-wider font-bold rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 border border-transparent dark:border-gray-700">React</span> 
-             <span className="px-3 py-1 text-[10px] uppercase tracking-wider font-bold rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 border border-transparent dark:border-gray-700">TypeScript</span> 
-             <span className="px-3 py-1 text-[10px] uppercase tracking-wider font-bold rounded-full bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 border border-transparent dark:border-gray-700">Power Platform</span> 
-          </div>
         </div>
       </Reveal>
     </div>

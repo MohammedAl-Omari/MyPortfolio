@@ -1,4 +1,5 @@
-import type { Project } from "../data/projects";
+// src/Components/ProjectCard.tsx
+import type { Project } from "../types/Project";
 import { Github } from "lucide-react";
 
 export default function ProjectCard({ project }: { project: Project }) {
@@ -27,25 +28,31 @@ export default function ProjectCard({ project }: { project: Project }) {
         ))}
       </div>
       
-      {/* Links */}
-      <div className="flex gap-5 pt-4 border-t border-gray-100 dark:border-gray-800">
-        <a 
-          href={project.github} 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 text-sm font-semibold hover:text-blue-500 transition-colors"
-        >
-          <Github size={18} />
-          <span>Code</span>
-        </a>
-        <a 
-          href={project.link} 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 text-sm font-semibold hover:text-blue-500 transition-colors"
-        >
-        </a>
-      </div>
+      {/* Links - Only show if at least one link exists */}
+      {(project.github || project.link) && (
+        <div className="flex gap-5 pt-4 border-t border-gray-100 dark:border-gray-800">
+          {project.github && (
+            <a 
+              href={project.github} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-sm font-semibold hover:text-blue-500 transition-colors"
+            >
+              <Github size={18} />
+              <span>Code</span>
+            </a>
+          )}
+          {project.link && (
+            <a 
+              href={project.link} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-sm font-semibold hover:text-blue-500 transition-colors"
+            >
+            </a>
+          )}
+        </div>
+      )}
     </div>
   );
 }

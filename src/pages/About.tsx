@@ -3,24 +3,29 @@ import Reveal from "../Components/Reveal";
 const skillCategories = [
   { 
     title: "Programming", 
-    items: ["Python", "C#", "JavaScript", "TypeScript", "Golang"], 
+    items: ["Python", "C#", "JavaScript", "TypeScript", "R"], 
     color: "group-hover:text-blue-500" 
   },
   { 
     title: "Web & Frameworks", 
-    items: [".NET", "ASP.NET Core", "Vue.js", "Flask", "Next.js", "Tailwind"], 
+    items: ["React", "Vue.js", "Flask", ".NET", "Vite", "Tailwind"], 
     color: "group-hover:text-green-500" 
   },
   { 
-    title: "Low-Code & AI", 
-    items: ["Power Platform", "OutSystems", "Generative AI", "Copilot Studio"], 
+    title: "Backend & Architecture", 
+    items: ["ASP.NET Core", "DDD", "MediatR", "REST API", "JWT"], 
     color: "group-hover:text-purple-500" 
   },
   { 
     title: "DevOps & Systems", 
-    items: ["Linux", "Git", "Docker", "CI/CD", "Raspberry Pi"], 
+    items: ["Linux", "Git", "Raspberry Pi", "MQTT", "IoT", "iperf3"], 
     color: "group-hover:text-orange-500" 
-  }
+  },
+    { 
+    title: "Networking & Protocols", 
+    items: ["TCP/IP", "BBRv2", "CUBIC", "iperf3", "Network Analysis", "Packet Tracing", "Cisco"], 
+    color: "group-hover:text-cyan-500" 
+  },
 ];
 
 export default function About() {
@@ -31,10 +36,9 @@ export default function About() {
         <section>
           <h1 className="text-4xl font-bold mb-6">About Me</h1>
           <p className="text-lg leading-relaxed max-w-3xl opacity-90">
-            I am a recently graduated Computer Science Engineer with a 
-            Bachelor's degree from the <span className="text-blue-500 font-semibold">University of Stavanger</span>. 
-            I specialize in building robust backend systems, modern web applications, 
-            and integrated IoT solutions.
+            I am a Data Technology student at the <span className="text-blue-500 font-semibold">University of Stavanger</span>, 
+            passionate about backend development, full-stack web applications, 
+            and exploring networking and IoT technologies.
           </p>
         </section>
       </Reveal>
@@ -71,7 +75,7 @@ export default function About() {
         </div>
       </section>
 
-{/* Languages - Consistent Project Card Style */}
+      {/* Languages - Consistent Project Card Style */}
       <Reveal>
         <section className="p-6 rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900/50 backdrop-blur-md hover:border-blue-500/50 hover:shadow-xl hover:shadow-blue-500/5 transition-all duration-300">
           <h3 className="text-xl font-bold mb-3 transition-colors hover:text-blue-500">
