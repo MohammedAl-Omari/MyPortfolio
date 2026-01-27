@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with React 19, TypeScript, and Tailwind CSS v4. Features a sleek glassmorphism design, smooth scroll animations, and a dynamic dark/light mode toggle.
 
-[![Live Demo](https://img.shields.io/badge/demo-live-blue?style=flat-square)](http://localhost:5173/MyPortfolio/#/)
+[![Live Demo](https://img.shields.io/badge/demo-live-blue?style=flat-square)](https://mohammedal-omari.github.io/MyPortfolio/#/)
 
 ##  Features
 
