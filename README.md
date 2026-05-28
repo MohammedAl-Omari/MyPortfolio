@@ -149,24 +149,6 @@ This portfolio can be easily deployed to:
 
 
 
-
-##  License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-##  Author
-
-**Mohammed Al-Omari**
-
-- GitHub: [@MohammedAl-Omari](https://github.com/MohammedAl-Omari)
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/mohammed-al-omari-680890233/)
-
-##  Acknowledgments
-
-- [React](https://react.dev/) - The library for web and native user interfaces
-- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
-- [Framer Motion](https://www.framer.com/motion/) - Production-ready motion library
-- [Lucide](https://lucide.dev/) - Beautiful & consistent icon toolkit
 - [Formspree](https://formspree.io/) - Form backend solution
 
 ---
